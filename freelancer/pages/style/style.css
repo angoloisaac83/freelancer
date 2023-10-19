@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 23px;
+}
+h2{
+    font-size: 22px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: rgb(235, 235, 235);
+    align-items: center;
+    justify-content: center ;
+}
+.parent{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center ;
+}
+orm{
+    background: white;
+    width: 27%;
+    padding: 30px 40px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center ;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.14);
+}
+.logo{
+    width: 70%;
+}
+.facebook-div{
+    width: fit-content;
+    height: fit-content;
+    background: rgb(235, 235, 235);
+    padding: 6px 15px;
+    display: flex;
+    border-radius: 4px;
+    color: rgb(13 29 53 / 28%);
+    align-items: center;
+    justify-content: center ;
+}
+.or{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    justify-content: center ;
+}
+.hr{
+    width: 45%;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.input-fields input::placeholder{
+    color: rgb(185, 185, 185);
+    font-size: 13px;
+    font-weight: 600;
+}
+.input-fields input{
+    padding: 12px 10px;
+    border-radius: 2px;
+    border: 0.5px solid rgb(214, 211, 211);
+}
+.out{
+    width: 100%;
+}
+.input-fields section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.input-fields section input{
+ width: 47%;
+}
+.input-fields section input:focus{
+    outline: none;
+}
+.input-fields  input:focus{
+    outline: none;
+}
+.check{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.check p{
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.check span{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.submit{
+    color: white;
+    border: none;
+    width: 95%;
+    padding: 8px 0px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    background: rgb(0, 132, 255);
+}
+a{
+    color: rgb(0, 132, 255);
+    font-weight: 600;
+    font-size: small;
+}
+.new{
+    font-weight: 500;
+}
+.down-hr{
+    width: 92%;
+}
+.get{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+}
+.get img{
+    width: 49%;
+}
+@media screen and (max-width: 500px) {
+    orm{
+        width: 100%;
+        height: 100%;
+    }
+}
